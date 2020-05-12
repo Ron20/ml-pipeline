@@ -1,5 +1,4 @@
 version: 1
-
 jobs:
   test_regression_model:
     working_directory: ~/project
