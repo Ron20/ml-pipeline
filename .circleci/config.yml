@@ -62,3 +62,5 @@ workflows:
     jobs:
       - test_regression_model
       - train_and_upload_regression_model
+        requires:
+          - test_regression_model
